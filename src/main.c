@@ -6,14 +6,15 @@
 #include <stdio.h>
 
 #include "header.h"
+#include "cui.h"
 
 int main(){
 	setProgram();
+	startCui();
 	
-	int number_a = randomNumber();
-	int number_b = randomNumber();
-	int number_c = randomNumber();
-	printf("%d %d %d \n", number_a, number_b, number_c);
+	int computer_number_a = randomNumber();
+	int computer_number_b = randomNumber();
+	int computer_number_c = randomNumber();
 	
 	exitProgram();
 	return 0;
