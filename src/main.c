@@ -8,6 +8,8 @@
 #include "header.h"
 
 int main(){
+	setProgram();
+	
 	int number_a = randomNumber();
 	int number_b = randomNumber();
 	int number_c = randomNumber();
