@@ -2,7 +2,7 @@
  * 2020 Feb
  * Copyright 2020 petra, all rights reserved.
  */
- 
+
 #include <stdio.h>
 
 #include "header.h"

@@ -3,13 +3,15 @@
  * Copyright 2020 petra, all rights reserved.
  */
 
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-int randomNumber(){
+void setProgram(){
 	srand(time(NULL));
+}
+int randomNumber(){
 	int result = (rand() % 9) + 1;
-	
 	return result;
 }
 
