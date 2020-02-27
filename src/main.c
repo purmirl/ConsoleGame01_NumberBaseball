@@ -23,6 +23,9 @@ int main(){
 	scanf_s("%d", &player_number_a, 1); /* scanf_s("format string", address of value, size of value) */
 	scanf_s("%d", &player_number_b, 1);
 	scanf_s("%d", &player_number_c, 1);
+
+	
+	
 	
 	printf("computer number a : %d\n", computer_number_a);
 	printf("computer number b : %d\n", computer_number_b);
